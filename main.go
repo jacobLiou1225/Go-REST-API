@@ -11,4 +11,5 @@ func main() {
 	config.Connect()
 	routes.UserRoute(router)
 	router.Run(":8080")
+	//這是main
 }
